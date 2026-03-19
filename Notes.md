@@ -136,9 +136,6 @@ Tree:       1
 - height(2) → max(height(4), height(5)) + 1 = max(1,1) + 1 = 2
 - height(3) → no children → return 0 + 1 = 1
 - height(1) → max(height(2), height(3)) + 1 = max(2,1) + 1 = 3
-```
-
-### Code
 
 ```python
 def height_of_tree(node):
